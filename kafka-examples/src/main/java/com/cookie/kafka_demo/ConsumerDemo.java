@@ -13,7 +13,7 @@ import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
  
 /**
- * 详细可以参考：https://cwiki.apache.org/confluence/display/KAFKA/Consumer+Group+Example
+ * 璇︾粏鍙互鍙傝�冿細https://cwiki.apache.org/confluence/display/KAFKA/Consumer+Group+Example
  * 
  * @author Fung
  *
@@ -52,6 +52,9 @@ public class ConsumerDemo {
             executor.submit(new ConsumerMsgTask(stream, threadNumber));
             threadNumber++;
         }
+        
+        
+        System.out.print("test git");
     }
  
     private static ConsumerConfig createConsumerConfig(String a_zookeeper,
