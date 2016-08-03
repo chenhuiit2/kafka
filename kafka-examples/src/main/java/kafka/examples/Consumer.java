@@ -51,7 +51,7 @@ public class Consumer extends ShutdownableThread
     this.topic = topic;
     this.name = name;
     
-    System.out.print("2312");
+    System.out.print("321321312");
   }
 
   @Override
