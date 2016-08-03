@@ -50,6 +50,8 @@ public class Consumer extends ShutdownableThread
     consumer = new KafkaConsumer<>(props);
     this.topic = topic;
     this.name = name;
+    
+    System.out.print("2312");
   }
 
   @Override
