@@ -41,6 +41,7 @@ public class Producer extends Thread
     producer = new KafkaProducer<Integer, String>(props);
     this.topic = topic;
     this.isAsync = isAsync;
+    System.out.println("12");
   }
 
   public void run() {
