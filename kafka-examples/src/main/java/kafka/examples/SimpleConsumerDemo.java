@@ -100,6 +100,6 @@ public class SimpleConsumerDemo {
 //	      }
 //	      Thread.sleep(2000);
 //      }
-//    }
+// //   }
   }
 }
