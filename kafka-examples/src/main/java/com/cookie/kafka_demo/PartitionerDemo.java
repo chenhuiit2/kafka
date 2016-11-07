@@ -26,5 +26,9 @@ public class PartitionerDemo implements Partitioner {
          
         return partition;
     }
+    
+    public void testing() {
+    	
+    }
  
 }
