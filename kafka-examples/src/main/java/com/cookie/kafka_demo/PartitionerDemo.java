@@ -30,5 +30,9 @@ public class PartitionerDemo implements Partitioner {
     public void testing() {
     	
     }
+    
+    public void testing2() {
+    	
+    }
  
 }
